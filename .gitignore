@@ -1,0 +1,11 @@
+# Arquivos temporários
+*~
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados automaticamente
+build/
+dist/
+node_modules/
+bdy_venv
