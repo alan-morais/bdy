@@ -20,7 +20,7 @@ def download():
     stream = yt.streams.filter(file_extension='mp4', progressive=True).order_by('resolution').desc().first()
 
     # Defina o diretório pai onde os vídeos serão salvos
-    dir_path = r"C:\Users\alanf\Music\Ogum"
+    dir_path = r"/tmp"
 
     # Baixe a transmissão de vídeo selecionada para o diretório pai
     stream.download(dir_path)
